@@ -6,7 +6,7 @@
 
 from pydantic import BaseModel, Field
 from pygments.lexer import default
-from scripts.regsetup import description
+from script.regsetup import description
 from sympy.testing.pytest import Failed
 
 from tasks.Component.GeneralBattle.config_general_battle import GeneralBattleConfig
